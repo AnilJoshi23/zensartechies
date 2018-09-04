@@ -178,16 +178,21 @@ footer .copyright {
 }
  /*** Cart **/
  
+ @media screen and (max-width: 735px) {
+   .items {
+      display: inline-grid !important;
+   }
+}
  .items {
     display: flex;
-    margin: 20px 60px;
+    margin: 20px 18px;
 }
 
 .itemCart {
     background-color: #fff;
     float: left;
     margin: 0 10px 10px 0;
-    width: 205px;
+    width: 196px;
     padding: 10px;
     height: 335px;
     padding-right: 24px;

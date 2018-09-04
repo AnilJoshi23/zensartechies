@@ -5,8 +5,8 @@ class  cart extends Component {
     return (
      
        
-<div className="wrapperCart">
-     <h1 className="h1value" >Bike Stock</h1>
+<div className="wrapperCart container-fluid" >
+   
  <span className="spanCart" ><i className="shopping-cart"></i></span>
 
     <div className="clear"></div>
