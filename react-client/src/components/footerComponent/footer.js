@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Footer extends Component {
   render() {
     return (
-      <footer  className="nav-footer" id="footer">
+      <footer style={{ height: "100%"}} className="nav-footer" id="footer">
           <div className="sitemap">
               <a href="#" className="nav-home">
               <img src="./createBottomTabNavigator · React Navigation_files/spiro_white.svg" alt="React Navigation" width="66" height="58"/>

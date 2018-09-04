@@ -176,3 +176,31 @@ footer .copyright {
     display: none;
   }
 }
+ /*** Cart **/
+ 
+ .items {
+    display: flex;
+    margin: 20px 60px;
+}
+
+.itemCart {
+    background-color: #fff;
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 205px;
+    padding: 10px;
+    height: 335px;
+    padding-right: 24px;
+    border-style: inset;
+}
+.itemCart img {
+    display: block;
+    margin: auto;
+}
+h2 {
+    font-size: 16px;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    margin: 0 0 10px 0;
+    padding: 0 0 5px 0;
+}
