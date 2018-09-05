@@ -4,6 +4,7 @@ class menuBar extends Component {
   render() {
     return (
       <div>
+
 <div className="navbar navbar-default navbar-static-top">
    <div className="container">
       <div className="navbar-header">

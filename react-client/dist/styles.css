@@ -1,6 +1,6 @@
 header {
   display: block;
-  background-color:paleturquoise;
+  border-top: 1px solid yellowgreen;
   width: 100%;
   height: 50px;
   color: white;
@@ -304,4 +304,21 @@ border-color: #000000;
   .navbar-nav .open .dropdown-menu .dropdown-header{
 	color:#fff;
   }
+}
+
+
+
+
+
+
+.input-groupN.md-form.form-sm.form-1 input{
+    border: 1px solid #cddc39 !important;
+    border-top-right-radius: 0.25rem !important;
+    border-bottom-right-radius: 0.25rem !important;
+    padding-left: 25px;
+    margin-right: 34px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    margin-left: 173px
+   
 }

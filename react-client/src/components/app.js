@@ -4,6 +4,7 @@ import { browserHistory } from 'react-router';
 import HomePage from './pages/homePage.js';
 import Carousel from './pages/Carousel.js';
 import Cart from './cart/cart.js';
+import Search from './search/searchbox.js';
 import ButtonBar from './headerComponent/myLarageModal.js';
 
 import NavBars from './headerComponent/navBars.js';
@@ -17,6 +18,7 @@ class App extends Component {
       <Router>
         <div>
           <NavBars />
+          <Search />
           <MenuBar />
           <Carousel/>
           <Cart/>
