@@ -34,14 +34,14 @@ class ControlledCarousel extends React.Component {
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img width={"100%"} height={200} alt="900x500" src="http://lorempixel.com/output/cats-q-c-640-480-2.jpg" />
+          <img width={"100%"} height={200} alt="900x500" src="http://lorempixel.com/output/cats-q-c-640-480-1.jpg"  />
           <Carousel.Caption>
             <h3>We Can give some detial</h3>
             <p>Feed Will come from backend </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img width={"100%"} height={200} alt="900x500" src="http://lorempixel.com/output/cats-q-c-640-480-3.jpg" />
+          <img width={"100%"} height={200} alt="900x500" src="http://lorempixel.com/output/cats-q-c-640-480-1.jpg"  />
           <Carousel.Caption>
             <h3>We Can give some detial</h3>
             <p>Feed Will come from backend </p>

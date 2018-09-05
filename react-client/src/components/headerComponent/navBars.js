@@ -12,7 +12,7 @@ class NavBars extends Component {
        <Navbar inverse collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="#brand">Zensar Ecoommerce</a>
+            <a href="#brand">Zensar Ecommerce</a>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
@@ -34,9 +34,11 @@ class NavBars extends Component {
           </Nav>
           <Nav pullRight>
             <NavItem eventKey={1} href="#">
-              Image Required
+              Link Right
             </NavItem>
-           
+            <NavItem eventKey={2} href="#">
+              Link Right
+            </NavItem>
           </Nav>
         </Navbar.Collapse>
       </Navbar>;
