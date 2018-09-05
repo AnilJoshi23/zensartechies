@@ -3,47 +3,46 @@ import { Link } from 'react-router-dom';
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 
 class NavBars extends Component {
+
+  
   render() {
     return (
       <header>
-        {/*<ul id="headerButtons">
-          <li className="navButton"><Link to="">Home</Link></li>
-        </ul>*/}
-       <Navbar inverse collapseOnSelect>
+        <Navbar   inverse collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="#brand">Zensar Ecommerce</a>
+            <a href="#">
+             <img src="https://zenarcrane.com/wp-content/uploads/cropped-HeaderlongNew-1.jpg" style={{width:100, marginTop: -7}} />
+            </a>
+            <a style={{ paddingLeft: "20px" }} href="#brand">VENTA TELEFÓNICA </a>
+             <a style={{ paddingLeft: "20px" }} href="#brand">VENTA TELEFÓNICA </a>
+              <a style={{ paddingLeft: "20px" }} href="#brand">VENTA TELEFÓNICA </a>
+               <a style={{ paddingLeft: "20px" }} href="#brand">VENTA TELEFÓNICA </a>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav>
             <NavItem eventKey={1} href="#">
-              Link
+              
             </NavItem>
             <NavItem eventKey={2} href="#">
-              Link
+              
             </NavItem>
-            <NavDropdown eventKey={3} title="Country" id="basic-nav-dropdown">
-              <MenuItem eventKey={3.1}>Inida</MenuItem>
-              <MenuItem eventKey={3.2}>Inida Again</MenuItem>
-              <MenuItem eventKey={3.3}>Inida Again</MenuItem>
-              <MenuItem divider />
-              <MenuItem eventKey={3.3}>Inida Again</MenuItem>
-            </NavDropdown>
+            
           </Nav>
           <Nav pullRight>
             <NavItem eventKey={1} href="#">
-              Link Right
+              
             </NavItem>
-            <NavItem eventKey={2} href="#">
-              Link Right
-            </NavItem>
+            <NavDropdown eventKey={3} title="Country" id="basic-nav-dropdown">
+              <MenuItem eventKey={3.1}>Inida</MenuItem>
+                 
+              
+            </NavDropdown>
           </Nav>
         </Navbar.Collapse>
-      </Navbar>;
-
-
+      </Navbar>
       </header>
     )
   }
