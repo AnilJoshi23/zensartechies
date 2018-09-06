@@ -69,12 +69,12 @@ class menuBar extends Component {
                <ul className="dropdown-menu megamenu row">
                   <li className="col-sm-3">
                      <ul>
-                        <li className="dropdown-header">Software</li>
-                        <li><a href="#">Desktop</a></li>
+                        <li style={{color: "yellowgreen"}} className="dropdown-header">Software</li>
+                        <li><a href="#" >Desktop</a></li>
                         <li className="disabled"><a href="#">Mobile</a></li>
                         <li><a href="#">Tablet</a></li>
                         <li className="divider"></li>
-                        <li className="dropdown-header">Hardware</li>
+                        <li  style={{color: "yellowgreen"}} className="dropdown-header">Hardware</li>
                         <li><a href="#">Arduino</a></li>
                         <li><a href="#">Raspberry PI</a></li>
                         <li><a href="#">VoCore</a></li>
@@ -83,7 +83,7 @@ class menuBar extends Component {
                   </li>
                   <li className="col-sm-3">
                      <ul>
-                        <li className="dropdown-header">Nano-Tech</li>
+                        <li  style={{color: "yellowgreen"}} className="dropdown-header">Nano-Tech</li>
                         <li><a href="#">AFM</a></li>
                         <li><a href="#">STM</a></li>
                         <li><a href="#">Nano-Tubes</a></li>
@@ -96,7 +96,7 @@ class menuBar extends Component {
                   </li>
                   <li className="col-sm-3">
                      <ul>
-                        <li className="dropdown-header">SaaS</li>
+                        <li  style={{color: "yellowgreen"}}className="dropdown-header">SaaS</li>
                         <li><a href="#">On-Demand</a></li>
                         <li><a href="#">No Software</a></li>
                         <li><a href="#">Cloud Computing</a></li>
